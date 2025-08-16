@@ -71,12 +71,40 @@ namespace miPrimerPryectoCsharp
             {
                 respuesta = num1 % num2;
             }
+            if (optFactorial.Checked) {
+                int factorial = (int)num1;
+                for (int i = (int)num1 - 1; i>1; i--) {
+                    factorial *= i;
+                }
+                respuesta = factorial;    
+            }
+            lblrespuesta.Text = "Respuesta: " + respuesta;
+            if (optPrimo.Checked) {
+                int i = 1, acum = 0;
+                while (i <= num1 && acum < 3) {
+                    if (num1 % i == 0) {
+                        acum++; //acum = acum + 1;
+                    }
+                    i++;
+                }
+                if (acum <= 2) {
+                    lblrespuesta.Text = "Respuesta:" + num1 + " Es primo";
+                } else {
+                    lblrespuesta.Text = "Respuesta:"+ num1 + " No es primo";
+                }         
+            
+            
+            
+            }
 
+
+
+            
             //Porcentaje
             //Factorial. 5! = 5x4x3x3x1=120
             //Modulo
 
-            lblrespuesta.Text = "Respuesta: " + respuesta;
+            
 
         }
 
@@ -103,7 +131,7 @@ namespace miPrimerPryectoCsharp
                 case 4:
                     respuesta = num1 % num2;
                     break;
-
+                 
             }
             lblrespuesta.Text = "Respuesta: " + respuesta;
         }

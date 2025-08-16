@@ -31,3 +31,14 @@ C:\Users\saúl\Documents\Repos\Progra1\miPrimerPryectoCsharp\miPrimerPryectoCsha
 C:\Users\saúl\Documents\Repos\Progra1\miPrimerPryectoCsharp\miPrimerPryectoCsharp\obj\Debug\miPrimerPryectoCsharp.csproj.CoreCompileInputs.cache
 C:\Users\saúl\Documents\Repos\Progra1\miPrimerPryectoCsharp\miPrimerPryectoCsharp\obj\Debug\miPrimerPryectoCsharp.exe
 C:\Users\saúl\Documents\Repos\Progra1\miPrimerPryectoCsharp\miPrimerPryectoCsharp\obj\Debug\miPrimerPryectoCsharp.pdb
+C:\Users\saúl\Desktop\Repos\Progra1\miPrimerPryectoCsharp\miPrimerPryectoCsharp\bin\Debug\miPrimerPryectoCsharp.exe.config
+C:\Users\saúl\Desktop\Repos\Progra1\miPrimerPryectoCsharp\miPrimerPryectoCsharp\bin\Debug\miPrimerPryectoCsharp.exe
+C:\Users\saúl\Desktop\Repos\Progra1\miPrimerPryectoCsharp\miPrimerPryectoCsharp\bin\Debug\miPrimerPryectoCsharp.pdb
+C:\Users\saúl\Desktop\Repos\Progra1\miPrimerPryectoCsharp\miPrimerPryectoCsharp\obj\Debug\miPrimerPryectoCsharp.csproj.AssemblyReference.cache
+C:\Users\saúl\Desktop\Repos\Progra1\miPrimerPryectoCsharp\miPrimerPryectoCsharp\obj\Debug\miPrimerPryectoCsharp.exe.config
+C:\Users\saúl\Desktop\Repos\Progra1\miPrimerPryectoCsharp\miPrimerPryectoCsharp\obj\Debug\miPrimerPryectoCsharp.Form1.resources
+C:\Users\saúl\Desktop\Repos\Progra1\miPrimerPryectoCsharp\miPrimerPryectoCsharp\obj\Debug\miPrimerPryectoCsharp.Properties.Resources.resources
+C:\Users\saúl\Desktop\Repos\Progra1\miPrimerPryectoCsharp\miPrimerPryectoCsharp\obj\Debug\miPrimerPryectoCsharp.csproj.GenerateResource.cache
+C:\Users\saúl\Desktop\Repos\Progra1\miPrimerPryectoCsharp\miPrimerPryectoCsharp\obj\Debug\miPrimerPryectoCsharp.csproj.CoreCompileInputs.cache
+C:\Users\saúl\Desktop\Repos\Progra1\miPrimerPryectoCsharp\miPrimerPryectoCsharp\obj\Debug\miPrimerPryectoCsharp.exe
+C:\Users\saúl\Desktop\Repos\Progra1\miPrimerPryectoCsharp\miPrimerPryectoCsharp\obj\Debug\miPrimerPryectoCsharp.pdb
