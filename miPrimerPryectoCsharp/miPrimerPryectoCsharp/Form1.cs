@@ -50,75 +50,9 @@ namespace miPrimerPryectoCsharp
             InicializarComponentes();
         }
 
-        private void InicializarComponentes()
-        {
-
-            cmbUnidadOrigen.Items.AddRange(new string[] { "Pie Cuadrado", "Vara Cuadrada", "Yarda Cuadrada", "Metro Cuadrado", "Tarea", "Manzana", "Hectárea" });
-            cmbUnidadDestino.Items.AddRange(new string[] { "Pie Cuadrado", "Vara Cuadrada", "Yarda Cuadrada", "Metro Cuadrado", "Tarea", "Manzana", "Hectárea" });
-
-            cmbUnidadOrigen.SelectedIndex = 0;
-            cmbUnidadDestino.SelectedIndex = 3;
+        
         }
 
-
-        private double CalcularImpuesto(double monto)
-        {
-            for (int i = 0; i < tablaImpuestos.GetLength(0); i++)
-            {
-                double desde = Convert.ToDouble(tablaImpuestos[i, 1]);
-                double hasta = Convert.ToDouble(tablaImpuestos[i, 2]);
-                double precio = Convert.ToDouble(tablaImpuestos[i, 3]);
-                double adicional = Convert.ToDouble(tablaImpuestos[i, 4]);
-
-                if (monto >= desde && monto <= hasta)
-                {
-                    double excedente = monto - desde;
-                    double montoAdicional = (excedente / 1000) * adicional;
-                    return precio + montoAdicional;
-                }
-            }
-            return 0;
-        }
-
-        // Función para convertir áreas
-        private double ConvertirArea(double valor, int unidadOrigen, int unidadDestino)
-        {
-            if (unidadOrigen >= 0 && unidadOrigen < 7 && unidadDestino >= 0 && unidadDestino < 7)
-            {
-                return valor * factoresConversion[unidadOrigen, unidadDestino];
-            }
-            return 0;
-        }
-
-        private void btnCalcularImpuesto_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                double monto = double.Parse(txtMontoActividad.Text);
-                double impuesto = CalcularImpuesto(monto);
-                lblResultadoImpuesto.Text = $"Impuesto a pagar: ${impuesto:F2}";
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Por favor ingrese un monto válido: " + ex.Message);
-            }
-        }
-
-        private void btnConvertir_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                double valor = double.Parse(txtValorConvertir.Text);
-                int origen = cmbUnidadOrigen.SelectedIndex;
-                int destino = cmbUnidadDestino.SelectedIndex;
-
-                double resultado = ConvertirArea(valor, origen, destino);
-                lblResultadoConversion.Text = $"{valor} {cmbUnidadOrigen.Text} = {resultado:F4} {cmbUnidadDestino.Text}";
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Por favor ingrese un valor válido: " + ex.Message);
-            }
-        }
+       
     }
 }
