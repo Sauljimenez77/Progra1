@@ -72,7 +72,7 @@
             this.Controls.Add(this.txtCantidad);
             this.Controls.Add(this.lblCantidad);
             this.Name = "Form1";
-            this.Text = "Estadistica";
+            this.Text = "ADMINISTRACION DE ALUMNOS";
             this.ResumeLayout(false);
             this.PerformLayout();
 
