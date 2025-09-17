@@ -1,6 +1,6 @@
 ﻿namespace miPrimerPryectoCsharp
 {
-    partial class Form1
+    partial class alumnos
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -63,7 +63,7 @@
             this.lblCantidad.TabIndex = 21;
             this.lblCantidad.Text = "Cantidad:";
             // 
-            // Form1
+            // alumnos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -71,7 +71,7 @@
             this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.txtCantidad);
             this.Controls.Add(this.lblCantidad);
-            this.Name = "Form1";
+            this.Name = "alumnos";
             this.Text = "ADMINISTRACION DE ALUMNOS";
             this.ResumeLayout(false);
             this.PerformLayout();
