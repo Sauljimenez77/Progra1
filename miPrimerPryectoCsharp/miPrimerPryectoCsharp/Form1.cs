@@ -12,10 +12,8 @@ namespace miPrimerPryectoCsharp
 {
     public partial class alumnos : Form
     {
-        public alumnos()
-        {
-            InitializeComponent();
-        }
+        
 
+       
     }
 }
