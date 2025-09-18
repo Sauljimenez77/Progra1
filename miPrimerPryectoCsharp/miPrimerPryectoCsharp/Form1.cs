@@ -14,6 +14,20 @@ namespace miPrimerPryectoCsharp
     {
         
 
-       
+        public alumnos()
+        {
+            InitializeComponent();
+        }
+        Conexion objconexion = new Conexion();
+        DataSet objDs = new DataSet();
+        DataTable objDt = new DataTable();
+
+        public int posicion = 0;
+        public string accion = "nuevo";
+
+        private void alumnos_Load_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
