@@ -118,7 +118,7 @@
             // btnCalcularImpuesto
             // 
             this.btnCalcularImpuesto.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalcularImpuesto.Location = new System.Drawing.Point(210, 70);
+            this.btnCalcularImpuesto.Location = new System.Drawing.Point(200, 49);
             this.btnCalcularImpuesto.Name = "btnCalcularImpuesto";
             this.btnCalcularImpuesto.Size = new System.Drawing.Size(94, 57);
             this.btnCalcularImpuesto.TabIndex = 2;
